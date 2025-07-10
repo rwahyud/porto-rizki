@@ -1,0 +1,48 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bg2)"/>
+  
+  <!-- Dashboard Frame -->
+  <rect x="50" y="50" width="300" height="200" rx="10" fill="#fff" stroke="#333" stroke-width="2"/>
+  
+  <!-- Header -->
+  <rect x="60" y="60" width="280" height="30" fill="#4facfe" rx="5"/>
+  <text x="70" y="78" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff">
+    Analytics Dashboard
+  </text>
+  
+  <!-- Charts -->
+  <rect x="70" y="100" width="120" height="80" fill="#f0f0f0" rx="5"/>
+  <rect x="210" y="100" width="120" height="80" fill="#f0f0f0" rx="5"/>
+  
+  <!-- Chart Elements -->
+  <rect x="80" y="110" width="15" height="40" fill="#4facfe"/>
+  <rect x="100" y="120" width="15" height="30" fill="#00f2fe"/>
+  <rect x="120" y="105" width="15" height="45" fill="#4facfe"/>
+  <rect x="140" y="115" width="15" height="35" fill="#00f2fe"/>
+  <rect x="160" y="125" width="15" height="25" fill="#4facfe"/>
+  
+  <!-- Pie Chart -->
+  <circle cx="270" cy="140" r="30" fill="#4facfe"/>
+  <path d="M 270 110 A 30 30 0 0 1 300 140 L 270 140 Z" fill="#00f2fe"/>
+  
+  <!-- Stats -->
+  <rect x="70" y="190" width="80" height="40" fill="#f8f9fa" rx="5"/>
+  <rect x="160" y="190" width="80" height="40" fill="#f8f9fa" rx="5"/>
+  <rect x="250" y="190" width="80" height="40" fill="#f8f9fa" rx="5"/>
+  
+  <!-- Title -->
+  <text x="200" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fff">
+    Data Visualization
+  </text>
+  <text x="200" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#fff">
+    Interactive Dashboard
+  </text>
+</svg>
